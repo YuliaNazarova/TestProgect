@@ -1,4 +1,4 @@
-package sclad;
+package com.sclad;
 
 //import java.time.LocalDate;
 

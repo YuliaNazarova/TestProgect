@@ -1,4 +1,4 @@
-package sclad;
+package com.sclad;
 
 public class Tovar {
     String name;
