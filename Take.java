@@ -9,7 +9,7 @@ public class Take {
     int coll;
     double summa;
 
-    Take(String fio, String date, String tova, int coll, double summa) {
+    public Take(String fio, String date, String tova, int coll, double summa) {
         this.fio = fio;
         this.date = date;
         this.tova = tova;
