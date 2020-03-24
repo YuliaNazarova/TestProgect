@@ -23,8 +23,10 @@ public class PriemTovara {
         String tova = scanner.nextLine();
         System.out.println("Введите колличество:  ");
         int coll = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Введите цену:  ");
         double summa = scanner.nextDouble();
+        scanner.nextLine();
         Take take = new Take(fio, date, tova, coll, summa);
         take.display();
         System.out.println(take.getInfo());
