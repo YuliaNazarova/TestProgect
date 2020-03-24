@@ -16,7 +16,7 @@ public class PriemTovara {
           Scanner scanner = new Scanner(System.in);
           System.out.println("Введите поступление товара:  ");
           String fio = scanner.nextLine();
-          i=i+1;
+        //  i=i+1;
         System.out.println("Введите дату:  ");
         String date = scanner.nextLine();
         System.out.println("Введите название товара:  ");
